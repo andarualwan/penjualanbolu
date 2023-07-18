@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logoabbol"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Buildappsbolu"
+        tools:targetApi="31">
+        <activity
+            android:name=".terimaorderan"
+            android:exported="false" />
+        <activity
+            android:name=".peraturan"
+            android:exported="false" />
+        <activity
+            android:name=".meses"
+            android:exported="false" />
+        <activity
+            android:name=".pandan"
+            android:exported="false" />
+        <activity
+            android:name=".coklar"
+            android:exported="false" />
+        <activity
+            android:name=".coklatkeju"
+            android:exported="false" />
+        <activity
+            android:name=".original"
+            android:exported="false" />
+        <activity
+            android:name=".Riwayat"
+            android:exported="false" />
+        <activity
+            android:name=".pesanan"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".selamatdatang"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

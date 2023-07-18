@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logotb"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TBDwiPutra"
+        tools:targetApi="31">
+        <activity
+            android:name=".formpembelian"
+            android:exported="false" />
+        <activity
+            android:name=".kunci"
+            android:exported="false" />
+        <activity
+            android:name=".paku"
+            android:exported="false" />
+        <activity
+            android:name=".triplek"
+            android:exported="false" />
+        <activity
+            android:name=".amplas"
+            android:exported="false" />
+        <activity
+            android:name=".cattembok"
+            android:exported="false" />
+        <activity
+            android:name=".semen"
+            android:exported="false" />
+        <activity
+            android:name=".Kontak"
+            android:exported="false" />
+        <activity
+            android:name=".Peraturan"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".selamatdatang"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

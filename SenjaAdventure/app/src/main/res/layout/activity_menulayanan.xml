@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenu"
+    tools:context=".menulayanan">
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Menu Penyewaan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnperaturan"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Aturan Pemesanan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnkontak"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Kontak Penyewaan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnjamrental"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Jam Buka Rental"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Logout"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="48dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:visibility="visible"
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="264dp"
+            android:layout_height="29dp"
+            android:text="Aplikasi penjualan Toko roti"
+            android:textColor="@color/purple_500"
+            android:textSize="10pt" />
+
+
+    <ImageButton
+        android:layout_width="96dp"
+        android:layout_height="83dp"
+        android:id="@+id/terigu"
+        android:background="@drawable/terigu"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="142dp"
+        />
+
+    <Button
+        android:id="@+id/tbterigu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terigu"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

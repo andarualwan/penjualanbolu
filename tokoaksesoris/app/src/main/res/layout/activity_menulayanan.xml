@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menulayanan"
+    tools:context=".menulayanan">
+
+    <Button
+        android:id="@+id/btnproduk"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="Katalog Produk"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnformpesan"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="formulir pesan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnjambuka"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="Jam Buka"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:text="logout"
+        android:textColor="@color/black" />
+
+</LinearLayout>

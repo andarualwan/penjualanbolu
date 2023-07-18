@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menulayanan"
+    tools:context=".menulayanan">
+
+    <Button
+        android:id="@+id/btntagihan"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="tagihan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btndetailtagihan"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Detailtagihan"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnbayar"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="bayar"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnkeluar"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="logout"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

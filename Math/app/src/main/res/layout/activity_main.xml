@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgeh"
+    android:orientation="vertical">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Masukan Nilai"
+      android:gravity="center"
+      android:textSize="12pt"
+      android:layout_margin="50dp"
+      android:textColor="@color/black"/>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="12pt"
+      android:gravity="center"
+      android:textColor="@color/black"
+      android:layout_margin="20dp"
+      android:id="@+id/input"/>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:layout_margin="20dp"
+      android:orientation="horizontal">
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@drawable/sin"
+          android:id="@+id/sin"
+          android:layout_marginRight="5dp" />
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@drawable/cos"
+          android:id="@+id/cos"
+          android:layout_marginRight="5dp"
+          android:layout_marginLeft="5dp"/>
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@drawable/tan"
+          android:id="@+id/tan"
+          android:layout_marginLeft="5dp"/>
+  </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:textSize="12pt"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>
+</LinearLayout>
